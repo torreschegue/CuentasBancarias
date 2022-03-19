@@ -3,7 +3,7 @@ public class Cliente {
 	private String nombre;
 	private String apellido;
 	private String ine;
-	Cuenta cuentas[];
+	Cuenta cuentas[]; // Arreglo de Objeto
 	
 	public Cliente(String nombre, String apellido, String ine, Cuenta[] cuentas) {
 		this.nombre = nombre;
